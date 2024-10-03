@@ -22,12 +22,15 @@ h1 {
 }
 .box4 {
   color: rgb(4, 0, 0);
+  text-decoration: line-through;
 }
 .box5 {
   color: rgb(4, 0, 0);
+  text-decoration: overline;
 }
 .box6 {
   color: rgb(4, 0, 0);
+  text-decoration: underline;
 }
 .box7 {
   color: rgb(4, 0, 0);
