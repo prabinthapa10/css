@@ -1,0 +1,21 @@
+.container {
+  border: 2px solid;
+  width: 800px;
+  height: 500px;
+  display: flex;
+}
+.box1 {
+  border: 2px solid;
+  width: 20px;
+  height: 20px;
+}
+.box2 {
+  border: 2px solid;
+  width: 20px;
+  height: 20px;
+}
+.box3 {
+  border: 2px solid;
+  width: 20px;
+  height: 20px;
+}
