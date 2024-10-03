@@ -12,8 +12,12 @@ h1 {
   color: rgb(4, 0, 0);
   text-align: center;
   font-weight: 200;
-  line-height: 5px;
+  line-height: 25px;
   text-transform: uppercase;
+  border: 2px solid black; /* width style(solid, dotted, dashed) color */
+  border-radius: 10px;
+  padding: 1px 2px 3px 4px; /*use to  top right botto left*/
+  margin: 1px 2px 3px 4px; /*same as padding */
 }
 .box2 {
   color: rgb(4, 0, 0);
