@@ -5,11 +5,20 @@
   display: flex;
   flex-direction: row; /* row reverse, row reverse */
   /* justify-content: center; space-between, space aroudn, end */
+
+  /* cross axis */
+  align-items: center;
+  flex-wrap: wrap; /* will go to next line automatic if space is less*/
+  /* liek jjustify content  */
+  align-content: flex-start;
+  /* column gap and row gap */
+  column-gap: 1em;
 }
 .box1 {
   border: 2px solid;
   width: 20px;
   height: 20px;
+  /* align-self: baseline; */
 }
 .box2 {
   border: 2px solid;
