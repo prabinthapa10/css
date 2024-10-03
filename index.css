@@ -18,22 +18,27 @@ h1 {
   border-radius: 10px;
   padding: 1px 2px 3px 4px; /*use to  top right botto left*/
   margin: 1px 2px 3px 4px; /*same as padding */
+  display: inline;
 }
 .box2 {
   color: rgb(4, 0, 0);
   text-align: left;
   font-weight: 900;
+  display: inline; /*no margin no padding*/
 }
 .box3 {
+  display: block; /* takes full space availabe in width*/
   color: rgb(4, 0, 0);
   text-align: right;
   font-weight: 600;
 }
 .box4 {
+  display: inline-block; /*simlar to inline but we can set margin padding */
   color: rgb(4, 0, 0);
   text-decoration: line-through;
 }
 .box5 {
+  display: none; /* to remove element for document flow */
   color: rgb(4, 0, 0);
   text-decoration: overline;
 }
